@@ -1,10 +1,81 @@
 .App {
   text-align: center;
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  
 }
 
-.App-logo {
+.left {
+  padding: 100px 0;
+  
+}
+
+.Text {
+  color: white;
+  text-align: left;
+  
+}
+
+.Text-detail {
+  color: rgb(172, 171, 171);
+  text-align: left;
+  
+}
+
+.logo {
   height: 40vmin;
   pointer-events: none;
+  display: flex;
+  justify-content: left
+  
+}
+
+.button-group {
+  display: flex;
+  justify-content: left;
+  margin-top: 50px;
+}
+
+
+.button-register{
+  margin-left: 20px;
+}
+
+.login{
+  background-color: orangered;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 15px 25px;
+  width: 100px;
+}
+
+.loginform{
+  background-color: orangered;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.btnlogin{
+ width: 200px;
+  
+}
+
+.input{
+  width: 200px;
+}
+
+.right{
+  padding: 15px;
+  background-color: #333333;
+  width: 400px;
+  border-radius: 7px;
+}
+
+.right-side{
+  padding: 200px 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -26,6 +97,12 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.inputEmail {
+  background-color: rgb(167, 167, 167);
+  border-radius: 5px;
+  padding: 5px;
 }
 
 @keyframes App-logo-spin {
