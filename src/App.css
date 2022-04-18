@@ -113,3 +113,64 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+ 
+  
+
+}
+
+li {
+  display: inline;
+  color: white;
+ 
+  
+  
+}
+
+.menu {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  
+  
+}
+
+.logoMenu {
+  height: 60px;
+  width: 60px;
+  margin: 12px 12px 12px;
+  
+}
+
+.left-bar {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  
+  
+}
+
+.homepage {
+  background-color: black;
+  height: 100%;
+}
+
+.product {
+  color: orangered;
+}
+
+.content-product {
+  margin-left: 60px;
+  padding: 50px 0;
+  
+}
+
+.cardproduct{
+  display: inline;
+}
