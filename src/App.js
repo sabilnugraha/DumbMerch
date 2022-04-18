@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import { Row, Col, Container, Button, Form } from 'react-bootstrap';
 import Homepage from './homepage'
 import Home from './home'
+import Detailproduct from './detailproduct'
 
 
 
@@ -22,6 +23,7 @@ function App() {
     <Routes>
     <Route path="/homepage" element={<Homepage />} />
     <Route path="/" element={<Home />} />
+    <Route path="/detail-product" element={<Detailproduct />} />
     </Routes>
     </BrowserRouter>
   );

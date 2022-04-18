@@ -3,15 +3,20 @@ import { Navbar, Container } from "react-bootstrap";
 import './App.css';
 import { Card, Col, Button } from 'react-bootstrap';
 import mouse from './asset/mouse.png';
+import {useNavigate} from "react-router-dom"
 
 const Homepage = () => {
-  return (
+  const navigate = useNavigate()
+    const HandleProduct = ()  => {
+        navigate('/detail-product')
+    }
+    return(
     <div className='homepage'>
       <Nav />
       <div className='content-product'>
       <h3 className='product'>Product</h3>
 <div className='cardproduct'>
-      <div className="cards col-3">
+      <div onClick={HandleProduct} className="cards col-3">
       <Card className="card mt-3 bg-dark" style={{ width: '18rem' }}>
      
   <Card.Img variant="top " src={mouse} />
