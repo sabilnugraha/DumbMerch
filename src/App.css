@@ -237,3 +237,39 @@ margin-top: 20px;
 .Buy {
   padding-top: 70px;
 }
+
+.profile{
+  background-color: rgb(0, 0, 0);
+  height: 120vh;
+}
+
+.img-fluid {
+  border-radius: 2px;
+}
+
+.textDetail {
+  color: white;
+}
+
+.transaction {
+  border-radius: 2px;
+}
+
+.thumbnail {
+  border-radius: 2px;
+}
+
+.transactionBackground {
+  background-color: #3a3a3a;
+  border-radius: 2px;
+}
+
+.textDetailTransactionTime {
+  color: orangered;
+  font-size:xx-small
+}
+
+.textDetailPrice {
+  color: white;
+  font-size: xx-small;
+}

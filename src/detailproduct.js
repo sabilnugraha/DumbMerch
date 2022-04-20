@@ -2,8 +2,13 @@ import Nav from './navbar'
 import { Card, Col, Button } from 'react-bootstrap';
 import mouse from './asset/mouse.png';
 import './App.css';
+import {useNavigate} from "react-router-dom";
 
 const Detail = () => {
+    const navigate = useNavigate()
+    const HandleProfile = ()  => {
+        navigate('/profile')
+    }
     return(
         <>
         <Nav/>
@@ -27,7 +32,7 @@ const Detail = () => {
             </h6>
             <h3 className='productprice'><strong>Rp.300.000</strong></h3>
             <div className="Buy">
-            <button className="Buy-btn">Buy</button>
+            <button onClick={HandleProfile} className="Buy-btn">Buy</button>
             </div>
         </div>
         

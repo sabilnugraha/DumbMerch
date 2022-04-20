@@ -7,6 +7,7 @@ import { Row, Col, Container, Button, Form } from 'react-bootstrap';
 import Homepage from './homepage'
 import Home from './home'
 import Detailproduct from './detailproduct'
+import Profile from './profile'
 
 
 
@@ -24,6 +25,7 @@ function App() {
     <Route path="/homepage" element={<Homepage />} />
     <Route path="/" element={<Home />} />
     <Route path="/detail-product" element={<Detailproduct />} />
+    <Route path="/profile" element={<Profile />} />
     </Routes>
     </BrowserRouter>
   );
